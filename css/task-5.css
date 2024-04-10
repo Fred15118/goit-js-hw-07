@@ -1,0 +1,10 @@
+.change-color{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4e75ff;
+}

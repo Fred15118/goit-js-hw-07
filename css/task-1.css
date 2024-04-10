@@ -1,0 +1,35 @@
+.item {
+    background-color: #f6f6fe;
+    padding: 16px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.item:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.item h2{
+    margin-bottom: 16px;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.item ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.item li {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    border: 1px solid #808080;
+    padding: 8px 0px 8px 16px;
+    border-radius: 4px;
+}
+
+.item li:not(:last-child){
+    margin-bottom: 8px;
+}

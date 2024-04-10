@@ -1,0 +1,18 @@
+input{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border-color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 8px;
+}
