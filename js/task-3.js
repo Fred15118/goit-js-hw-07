@@ -4,7 +4,7 @@ const refs = {
 }
 
 const handleInputChange = (event) => {
-    const inputtedName = event.currentTarget.value;
+    const inputtedName = event.currentTarget.value.trim();
     
     if (!inputtedName) {
         refs.nameOutput.textContent = 'Anonymous';
